@@ -1,10 +1,20 @@
 /*stylesheet for index.html, contact.html, portfolio.html with bootstrap inc*/
 
+* { 
+    box-sizing: border-box;
+}
+
+
+body {
+    background:#D7cec7;
+    background-attachment: fixed;
+}
+
 
 .navbar-brand{ /*need to change the text color and hover color*/
-background-color: #4aaaa5;
-border-color: #cccccc;
-color: #cccccc;
+background-color: #76323F;
+border-color: white;
+color: white;
 font-family: "Georgia", Times, Times New Roman, serif;
 text-align: center;
 position:absolute;
@@ -16,26 +26,32 @@ border-bottom:75px;
 }
 
 .mainContent{
-background-color:rgb(240, 240, 240);
-border: 2px solid #dddddd;
+background-color: #575757;
+border: 2px solid #575757;
 font-family: "Arial", Helvetica Neue, Helvetica, sans-serif;
-color: #777777;
+color: white;
 padding: 35px;
 margin-left: 75px;
-margin-top: 0px;
+margin-top: 15px;
 position: absolute;
 top: 150px;
 width: 45%;
-overflow: scroll;
+
 }
 
 
-h3{
+h2{
 border-bottom: 3px solid gray;
 text-align: center;
 color: teal;
 font-family: Georgia, Times, Times New Roman, serif;
 }
+
+h4{
+    font-family: 'Nanum Pen Script', cursive;
+    text-align: center;
+      
+  }
 
 .panel{
 float: left;
@@ -62,6 +78,7 @@ form{
     left: 120px;
     }
 
+/*
 .footer {
     color: #777777;
     background-color: #666666;
@@ -77,4 +94,13 @@ form{
     margin-bottom: 0;
     font-size: 0.625em;
 }
-
+*/
+.footer {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  margin-top: 35px;
+  padding: 50px;
+  clear: both;
+}
